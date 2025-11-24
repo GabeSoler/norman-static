@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>about</title>
@@ -32,11 +33,11 @@
 
 </head> <!-- end of head-->
 
-<body class="" hx-boost="true">
+<body class="bg-light" hx-boost="true">
                         <!--Navbar starts-->
-    <nav class="navbar navbar-expand-md text-light bg-dark py-3">
+    <nav class="navbar navbar-expand-md text-light bg-white py-3" style="background-image:url(/static/images/header.png);">
     <div class="container-fluid">
-        <a class="navbar-brand text-secondary" style="font-family:Artifika,verdana,san-serif;" href="/" id="nav-title">
+        <a class="navbar-brand text-primary" style="font-family:Artifika,verdana,san-serif;" href="/" id="nav-title">
             VeensTherapeutic</a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -49,13 +50,13 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb2 mb-md-0"> <!-- "me" refers to left, and "ms" to right -->
               <li class="nav-item">
-                  <a class="nav-link link-light " href="/how/">
+                  <a class="nav-link link-primary " href="/how/">
                               How it works</a></li>
                 <li class="nav-item">
-                    <a class="nav-link link-light " href="/modalities/">
+                    <a class="nav-link link-primary " href="/modalities/">
                         Modalities </a></li>
                 <li class="nav-item">
-                    <a class="nav-link link-light " href="/about/">
+                    <a class="nav-link link-primary " href="/about/">
                         About</a></li>
             </ul><!-- End of links on left side of nvbar -->
             
@@ -64,7 +65,7 @@
                 <a class="btn btn-primary" href="mailto:">Contact</a>
             </ul> 
 
-             <!-- End of account related links -->
+             <!-- End of the account related links -->
 
 
         </div> <!-- Closes collapsible parts of navbar -->
@@ -79,18 +80,18 @@
 
     
 
-<div class="card bg-secondary col-12 col-md-10 mx-auto me-5">
+<div class="card bg-secondary col-12 col-md-10 mx-auto my-2 me-5">
 
-    <h4 class="card-header display-3 bg-primary text-light">About</h4>
+    <h4 class="card-header display-2 bg-primary text-light">About</h4>
 
+
+    <div class="card-body col-10 mx-auto">
     
-    <div class="container-fluid col-4 mx-auto mt-2" style="height:10%;">
-        <img class="card-img-top rounded" src="/static/images/water.png"
+    <div class="container-fluid col-4 mx-auto mt-2 float-start" style="height:10%;">
+        <img class="card-img-top rounded" src="/static/images/headshot.png"
              alt="about">
     </div>
     
-
-    <div class="card-body col-10 mx-auto">
         
         <div class="container text-primary">
             <p>Since we'll be working together for a while, it's only fair to introduce myself a little. I am a Dutch national who came to Scotland for its hills, education and never-failing hospitality. My interest in psychotherapy emerged during my time studying anthropology as I became aware of the role our culture plays in shaping what we feel, and are allowed to feel.</p>
@@ -107,26 +108,40 @@
 <h1 id="get-in-touch">Get in Touch</h1>
 <p>Contact me at veenstherapeutic@gmail.com to arrange an initial 20-minute phone consultation.</p>
 
-        </div>
+
     
+
+        </div>
         
 
     </div>
 
     
 
+    
+    <section class="py-4 py-xl-5 bg-dark">
+    <div class="container">
+        <div class="text-white bg-primary border rounded border-0 p-4 p-md-5">
+            <h4 class="display-3 fw-bold text-secondary mb-3">Location</h4>
+            Google Maps:
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d139.66686001671047!2d-3.1812272591843764!3d55.93776268231405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c77f15c059d1%3A0x373c21dbb0b9a7c!2s86%20Sciennes%20House%20Pl%2C%20Causewayside%2C%20Edinburgh%20EH9%201PY!5e0!3m2!1sen!2suk!4v1763912289966!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+        </div>
+    </div>
+</section>
+    
+    
 
 </main>
-    <footer class="text-center bg-black" style="width: 100%;">
+    <footer class="text-center bg-black" style="background-image:url(/static/images/header.png);">
         <div class="container-fluid py-4 py-lg-5" style="width: 100%;margin: 0px;display: block;">
 
             <ul class="list-inline" style="padding: 2px;padding-right: 4px;">
-                <li class="list-inline-item me-4"><a class="link-light" href="https://www.gabrielsoler.co.uk/contact/">Contact</a></li>
-                <li class="list-inline-item"><a class="link-light" href="https://crea-therapy.com" style="margin-right: 1rem;">CreaTherapy</a></li>
-                <li class="list-inline-item"><a class="link-light" href="https://gabesoler.github.io">GitHub</a></li>
+                <li class="list-inline-item me-4"><a class="link-primary" href="">Contact</a></li>
+                <li class="list-inline-item me-4"><a class="link-primary" href="https://www.bacp.co.uk/">BACP</a></li>
+                <li class="list-inline-item me-4"><a class="link-primary" href="/about/">About</a></li>
             </ul>
-            <p class="text-body mb-0">Copyright © 2025 Gabriel Soler</p>
+            <p class="text-primary mb-0">Copyright © 2025 <a class="link-primary" href="https://gabesoler.github.io">Gabriel Soler</a></p>
         </div>
     </footer>
 
